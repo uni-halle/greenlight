@@ -231,6 +231,7 @@ en:
     authentication: User Authentication
   footer:
     powered_by: Powered by %{href}.
+    host: IT-Servicezentrum
   forgot_password:
     subtitle: Forgot Password
     email: Email

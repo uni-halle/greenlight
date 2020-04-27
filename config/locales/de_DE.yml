@@ -229,7 +229,8 @@ de_DE:
     designs: Eigene Designs
     authentication: Nutzerauthentifizierung
   footer:
-    powered_by: "Bereitgestellt durch %{href}."
+    powered_by: "Bereitgestellt durch das %{href}."
+    host: IT-Servicezentrum
   forgot_password:
     subtitle: Passwort vergessen
     email: E-Mail
