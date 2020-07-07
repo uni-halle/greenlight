@@ -229,8 +229,14 @@ de_DE:
     designs: Eigene Designs
     authentication: Nutzerauthentifizierung
   footer:
-    powered_by: "Bereitgestellt durch das %{href}."
+    powered_by: "MLUconf wird bereitgestellt durch das %{href}."
     host: IT-Servicezentrum
+    terms: "Mit der Nutzung von MLUconf stimmen Sie den %{href} zu." 
+    use: Nutzungsbedingungen
+    data: "Bitte beachten Sie unsere %{href}."
+    protection: Datenschutzerklärung
+    imp: "Hier geht es zum %{href}."
+    imprint: Impressum
   forgot_password:
     subtitle: Passwort vergessen
     email: E-Mail

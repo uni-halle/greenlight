@@ -230,8 +230,14 @@ en:
     designs: Custom Designs
     authentication: User Authentication
   footer:
-    powered_by: Powered by %{href}.
+    powered_by: MLUconf is powered by %{href}.
     host: IT-Servicezentrum
+    terms: "By using MLUconf you agree to the %{href}." 
+    use: terms of use
+    data: "Please note our %{href}."
+    protection: privacy policy
+    imp: "Click here for the %{href}."
+    imprint: imprint
   forgot_password:
     subtitle: Forgot Password
     email: Email

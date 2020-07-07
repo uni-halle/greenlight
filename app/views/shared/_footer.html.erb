@@ -14,7 +14,12 @@
 %>
 
 <footer class="footer pt-3">
-  <p class="text-center mb-1"><%= t("footer.powered_by", href: link_to(t("footer.host"), "https://www.itz.uni-halle.de/", target: "_blank", rel: "noopener")).html_safe %> <%= Greenlight::Application::VERSION %></p>
+  <p class="text-center mb-1">
+    <span class="terms"><%= t("footer.terms", href: link_to(t("footer.use"), "https://www.itz.uni-halle.de/mluconf-nutzungsbedingungen", target: "_blank", rel: "noopener")).html_safe %><%= Greenlight::Application::VERSION %></span>
+    <span class="data"><%= t("footer.data", href: link_to(t("footer.protection"), "https://www.itz.uni-halle.de/mluconf-datenschutz", target: "_blank", rel: "noopener")).html_safe %> <%= Greenlight::Application::VERSION %></span>
+    <span class="imprint"><%= t("footer.imp", href: link_to(t("footer.imprint"), "https://www.itz.uni-halle.de/mluconf-impressum", target: "_blank", rel: "noopener")).html_safe %> <%= Greenlight::Application::VERSION %></span>
+    <span class="power"><%= t("footer.powered_by", href: link_to(t("footer.host"), "https://www.itz.uni-halle.de/", target: "_blank", rel: "noopener")).html_safe %> <%= Greenlight::Application::VERSION %></span>
+  </p>
 </footer>
 
 <!-- useless cookie warning removed - GL sets cookies anyway -->
