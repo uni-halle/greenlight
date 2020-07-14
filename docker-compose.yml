@@ -17,6 +17,17 @@ services:
 #        tag: $LOG_TAG
     volumes:
       - ./log:/usr/src/app/log
+      - ./customizations/app/views/layouts/application.html.erb:/usr/src/app/app/views/layouts/application.html.erb:ro
+      - ./customizations/app/views/main/index.html.erb:/usr/src/app/app/views/main/index.html.erb:ro
+      - ./customizations/app/views/shared/_footer.html.erb:/usr/src/app/app/views/shared/_footer.html.erb:ro
+      - ./customizations/app/views/shared/_header.html.erb:/usr/src/app/app/views/shared/_header.html.erb:ro
+      - ./customizations/app/views/shared/_sessions.html.erb:/usr/src/app/app/views/shared/_sessions.html.erb:ro
+      - ./customizations/app/views/shared/components/_public_recording_row.html.erb:/usr/src/app/app/views/shared/components/_public_recording_row.html.erb:ro
+      - ./customizations/app/views/shared/components/_recording_row.html.erb:/usr/src/app/app/views/shared/components/_recording_row.html.erb:ro
+      - ./customizations/app/views/users/recordings.html.erb:/usr/src/app/app/views/users/recordings.html.erb:ro
+      - ./customizations/config/locales/de_DE.yml:/usr/src/app/config/locales/de_DE.yml:ro
+      - ./customizations/config/locales/en.yml:/usr/src/app/config/locales/en.yml:ro
+      - ./customizations/lib/assets/_primary_themes.scss:/usr/src/app/lib/assets/_primary_themes.scss:ro
 # When using sqlite3 as the database
 #      - ./db/production:/usr/src/app/db/production
 # When using postgresql as the database
