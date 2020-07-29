@@ -323,3 +323,9 @@ h1#main-text{
   padding: 0 1rem;  
 }
 
+/* Konto löschen ausblenden */ 
+
+.wrapper .list-group .list-group-item:last-child{
+  display: none;
+}
+
