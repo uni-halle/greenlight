@@ -348,9 +348,9 @@ en:
       not_blank: Room name cannot be blank.
       title: Create New Room
     delete_account:
-      confirm: Are you sure you want to delete this account?
-      delete: I'm sure, delete this account.
-      keep: Actually, I'll keep it.
+      confirm: Are you sure you want to delete settings, rooms and recordings?
+      delete: Permanently delete settings, rooms and recordings.
+      keep: Keep
       delete_warning: This will deactivate the user's account. All deactived users can be found under the deleted tab.
       warning: This decision is final. You will <b>not</b> be able to recover associated data.
     delete_room:
@@ -530,10 +530,10 @@ en:
       subtitle: Update your Account Info
       title: Account Info
     delete:
-      button: Yes, I would like to delete my account.
-      disclaimer: If you choose to delete your account, it will <b>NOT</b> be recoverable. All information regarding your account, including settings, rooms, and recording will be removed.
-      subtitle: Permanently Delete your Account
-      title: Delete Account
+      button: Yes, I would like to delete MLUconf data.
+      disclaimer: All information regarding your account, including settings, rooms, and recording will be permanently removed and can't be recoverd.
+      subtitle: Permanently Delete MLUconf data
+      title: Delete MLUconf data
     password:
       confirmation: New Password Confirmation
       new: New Password
