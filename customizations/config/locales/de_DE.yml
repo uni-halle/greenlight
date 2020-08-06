@@ -347,9 +347,9 @@ de_DE:
       not_blank: Es muss ein Raumname angegeben werden.
       title: Neuen Raum erstellen
     delete_account:
-      confirm: "Sind Sie sicher, dass Sie dieses Konto löschen wollen?"
-      delete: "Ich bin sicher, das Konto soll gelöscht werden."
-      keep: Ich behalte ihn doch.
+      confirm: "Sind Sie sicher, dass Sie Einstellungen, Räume und Aufzeichnungen löschen wollen?"
+      delete: "Einstellungen, Räume und Aufzeichnungen endgültig löschen."
+      keep: Behalten
       delete_warning: Dies deaktiviert das Nutzerkonto. Alle deaktivierten Nutzer findet man unter dem Tab Gelöscht.
       warning: "Diese Entscheidung ist endgültig. Sie werden <b>nicht</b> in der Lage sein, damit verbundene Daten wiederherzustellen."
     delete_room:
@@ -529,10 +529,10 @@ de_DE:
       subtitle: Kontoinformationen aktualisieren
       title: Kontoinformationen
     delete:
-      button: "Ja, ich möchte mein Konto löschen."
-      disclaimer: "Wenn Sie Ihr Konto löschen, können Sie es <b>NICHT</b> wiederherstellen. Alle mit Ihrem Konto verbundenen Informationen - wie Einstellungen, Räume und Aufzeichnungen - werden gelöscht."
-      subtitle: Konto endgültig löschen
-      title: Konto löschen
+      button: "Ja, MLUconf Daten löschen."
+      disclaimer: "Alle mit Ihrem Konto verbundenen Informationen - wie Einstellungen, Räume und Aufzeichnungen - werden gelöscht und können nicht wiederhergestellt werden."
+      subtitle: MLUconf Daten endgültig löschen
+      title: MLUconf Daten löschen
     password:
       confirmation: Bestätigung von neuem Passwort
       new: Neues Passwort
